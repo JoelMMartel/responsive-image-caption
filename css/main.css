@@ -10,9 +10,7 @@ html {
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-  font-size: 1.5rem;
-}
+  text-size-adjust: 100%;}
 
 *, *::before, *::after {
   box-sizing: inherit;
@@ -21,6 +19,23 @@ html {
 .card {
   display: block;
   margin: 0;
+}
+
+.content{
+  display: block;
+  width: 100%;
+  justify-content: center;
+  background-color: #e2e2e2;
+  padding: 0 1em;
+}
+
+.section {
+  display:flex;
+  flex-direction: column;
+}
+
+.dino-img {
+  display: block;
   width: 100%;
 }
 
@@ -28,13 +43,22 @@ body {
   margin: 0;
 }
 
-.content {
-  display: block;
-  background-color: #e2e2e2;
-  width: 100%;
+h2 {
+  padding-top: .7em;
+  margin: 0 0 .9em 0;
+  font-family: "Denk One", sans-serif;
 }
 
-figcaption h2 {
-  font-family: "Denk One", sans-serif;
+p {
   margin-top: 0;
+  padding-bottom: .8em;
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+
+
 }
